@@ -25,6 +25,9 @@ public class Tester {
 
     Triangle t1 = new Triangle(p1, p2, p3);
     Triangle t2 = new Triangle(0, 0, 3, 0, 0, 4);
+    System.out.println(t1.toString());
+    System.out.println(t2.toString());
+
 
   }
 }
