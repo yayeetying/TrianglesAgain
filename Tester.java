@@ -29,7 +29,15 @@ public class Tester {
     System.out.println(t2.toString());
     System.out.println(t1.getPerimeter());
     System.out.println(t2.getPerimeter());
-
+    System.out.println(t1.getArea());
+    System.out.println(t2.getArea());
+    Triangle t3 = new Triangle(0,0,0,0,0,0);
+    Triangle t4 = new Triangle(0,0,4,0,2,3);
+    Triangle t5 = new Triangle(0,0,4,0,4,0);
+    System.out.println(t3.classify()); //equilateral
+    System.out.println(t4.classify()); //isosceles
+    System.out.println(t5.classify()); //isosceles
+    System.out.println(t1.classify()); //scalene
 
   }
 }
