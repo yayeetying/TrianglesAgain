@@ -27,6 +27,8 @@ public class Tester {
     Triangle t2 = new Triangle(0, 0, 3, 0, 0, 4);
     System.out.println(t1.toString());
     System.out.println(t2.toString());
+    System.out.println(t1.getPerimeter());
+    System.out.println(t2.getPerimeter());
 
 
   }
