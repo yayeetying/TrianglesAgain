@@ -38,6 +38,10 @@ public class Tester {
     System.out.println(t4.classify()); //isosceles
     System.out.println(t5.classify()); //isosceles
     System.out.println(t1.classify()); //scalene
+    System.out.println();
 
+    t3.setVertex(0, p1);
+    t3.setVertex(1, p2);
+    System.out.println(t3.toString());
   }
 }

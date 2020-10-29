@@ -43,8 +43,10 @@ public class Triangle {
             + v3.getX() + ", " + v3.getY() + ")";
   }
 
-//   //replace specified Point (index 0,1,or 2) w/ new Point
-//   public void setVertex(int index, Point newP) {
-//
-//   }
-// }
+  //replace specified Point (index 0,1,or 2) w/ new Point
+  public void setVertex(int index, Point newP) {
+    if (index == 0) v1 = newP;
+    else if (index == 1) v2 = newP;
+    else {v3 = newP;}
+  }
+}
