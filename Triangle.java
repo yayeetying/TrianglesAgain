@@ -28,6 +28,7 @@ public class Triangle {
     return Math.sqrt( s * (s-v1.distanceTo(v2)) * (s-v2.distanceTo(v3)) * (s-v3.distanceTo(v1)) );
   }
 
+  //round distances to tenthousandths
   public String classify() {
     double side1 = (Math.round(v1.distanceTo(v2) * 10000))/10000;
     double side2 = (Math.round(v2.distanceTo(v3) * 10000))/10000;

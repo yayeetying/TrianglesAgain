@@ -42,6 +42,6 @@ public class Tester {
 
     t3.setVertex(0, p1);
     t3.setVertex(1, p2);
-    System.out.println(t3.toString());
+    System.out.println(t3.toString()); //v1(3.0, 4.0) v2(3.0, 14.35) v3(0.0, 0.0)
   }
 }
