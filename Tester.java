@@ -21,5 +21,10 @@ public class Tester {
     System.out.println(p1.equals(p1Clone));
     System.out.println(p3.equals(p3Clone));
     System.out.println(p2.equals(p1));
+    System.out.println();
+
+    Triangle t1 = new Triangle(p1, p2, p3);
+    Triangle t2 = new Triangle(0, 0, 3, 0, 0, 4);
+
   }
 }
