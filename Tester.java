@@ -7,6 +7,7 @@ public class Tester {
     Point p2 = new Point(3.0, 14.35);
     Point p3 = new Point(2.5, 3.2);
     Point p3Clone = new Point(2.5, 3.2);
+    Point p4 = null;
 
     System.out.println(p1.getX());
     System.out.println(p3.getY());
@@ -16,11 +17,13 @@ public class Tester {
     System.out.println(p1.distanceTo(p1Clone));
     System.out.println(p1.distanceTo(p2));
     System.out.println(p2.distanceTo(p3));
+    System.out.println(p2.distanceTo(p4)); //null point
     System.out.println();
 
     System.out.println(p1.equals(p1Clone));
     System.out.println(p3.equals(p3Clone));
     System.out.println(p2.equals(p1));
+    System.out.println(p2.equals(p4)); //null point
     System.out.println();
 
     Triangle t1 = new Triangle(p1, p2, p3);
